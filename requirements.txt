@@ -1,0 +1,19 @@
+Version 0.01 
+ 
+ -- Login page ( estimated time 2 days ) 1 - 2
+        - email  -- verification
+        - phone -- verification
+        - google -- verification
+
+ -- Home page ( estimated time 2 day ) 6th - 8th
+        - search bar ( optional)
+        - categories ( optional )
+        - hotels listing 
+        - favourites options 
+
+ -- Hotel page ( estimated time 2 days ) 9th - 10th
+        - hotel details 
+        - hotel images 
+        - hotel reviews ( try add reviews for the users )
+        - hotel map
+
