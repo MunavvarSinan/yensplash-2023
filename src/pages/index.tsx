@@ -8,10 +8,12 @@ import Gallery from './gallery';
 import Pronities from './pronities';
 import airbnb from '../images/airbnb.svg';
 import Events from './events';
+import { useRouter } from 'next/router';
 
 
 export default function PreviewPage() {
-
+  const router = useRouter();
+  const showNav = router.query.showNav;
   return (
 
     <>
@@ -24,7 +26,7 @@ export default function PreviewPage() {
 
             <div className="max-w-7xl mx-auto px-6 md:px-12 xl:px-6">
               <div className="relative pt-36 ml-auto">
-                <div className="lg:w-2/3 text-center mx-auto">
+                <div className="lg:w-2/3 text-justify mx-auto">
                   <h1 className="text-white dark:text-white font-bold text-5xl md:text-6xl xl:text-7xl">YENSPLASH<span className="text-primary text-[#EACD69]"> 2023.</span></h1>
                   <h4 className="mt-8 text-white dark:text-gray-300">
                     Yensplash 2023 is a vibrant, three-day inter-college techno-cultural extravaganza that celebrates the spirit of accomplishment and involvement. With a footfall of over 3000 students from across the state, YenSplash is the ultimate platform to showcase your skills and talents. At YenSplash 2023, we aim to cultivate a sense of community among the youth by providing a wide range of activities that cater to all interests. From showcasing your technological expertise to indulging in literary and cultural events, or even testing your gaming skills, YenSplash 2023 has something for everyone. Come join us at YIT and let the magic of YenSplash inspire you to invent, create and amalgamate your cultural and traditional knowledge with us. So, mark your calendars and be a part of this spectacular celebration where you can unleash your true potential and bring out the best version of yourself!
@@ -55,7 +57,7 @@ export default function PreviewPage() {
         <div>
           <Gallery />
           <Pronities />
-          <Events />
+          <Events headerShown={false} />
         </div>
       </Container >
     </>

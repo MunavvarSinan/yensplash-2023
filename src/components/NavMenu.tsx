@@ -65,7 +65,7 @@ const NavMenu = () => {
        '
       >
         <div className='flex justify-start lg:w-0  transition whitespace-nowrap hover:transition duration-300 text-2xl font-bold cursor-pointer  '>
-          <span className='sr-only'>Logo </span>
+          <span className='sr-only'>Logo</span>
           <NextLink href='/' passHref>
             {/* <motion.a
               className='group relative transition whitespace-nowrap hover:transition duration-300 text-2xl font-bold'
@@ -138,7 +138,7 @@ const NavMenu = () => {
               <ul className='space-y-6'>
                 {navItems.map(({ href, text }) => (
                   <li>
-                    <NextLink href={href}>
+                    <NextLink href={{ pathname: href, query: { showNav: text !== 'Home' ? true : false } }}>
                       <p className='hover:text-lightGreen dark:hover:text-emerald-500'>
                         {text}
                       </p>
