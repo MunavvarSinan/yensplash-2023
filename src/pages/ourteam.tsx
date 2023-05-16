@@ -1,5 +1,5 @@
 import React from 'react'
-import {  mehfooz, munavvar, thanay, profile } from '../images/team'
+import {  mehfooz, munavvar, thanay, profile,mash } from '../images/team'
 import Image from 'next/image'
 import { twitter, linkedin, github } from '../images/icons';
 import NavMenu from '@/components/NavMenu';
@@ -28,8 +28,8 @@ const teamDetails = [
 
     },
     {
-        name: 'Vitesh',
-        image: profile,
+        name: 'Vithesh',
+        image: mash,
         year: "4'th year CSE",
         linkedin: 'https://www.linkedin.com/in/',
         github: 'https://github.com/',
