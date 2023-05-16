@@ -101,7 +101,7 @@ const Gallery = () => {
             <section className=' p-20'>
                 <div className="   md:px-12 xl:px-6">          <div className="relative pt-36 ">
                     <div className="lg:w-2/3 md:text-center  mx-auto">
-                        <h1 className="text-white font-bold text-4xl md:text-6xl xl:text-7xl">GLIMPSES OF <span className="text-primary text-[#EACD69]">YENSPLASH 2022.</span></h1>
+                        <h1 className="text-white font-bold text-4xl md:text-6xl xl:text-7xl">GLIMPSES OF <span className="text-primary text-green-700">YENSPLASH 2022.</span></h1>
 
                     </div>
                 </div>

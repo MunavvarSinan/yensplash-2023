@@ -59,9 +59,9 @@ const NavMenu = () => {
   }, [])
 
   return (
-    <div className=' text-white md:justify-center'>
+    <div className=' text-white'>
       <div
-        className='flex items-center justify-between max-w-6xl lg:max-w-[57rem] xl:max-w-6xl px-4 py-6 mx-auto sm:px-6
+        className='flex items-center justify-between max-w-6xl lg:max-w-[72rem] xl:max-w-6xl px-4 py-6 mx-auto sm:px-6
        '
       >
         <div className='flex justify-start lg:w-0  transition whitespace-nowrap hover:transition duration-300 text-2xl font-bold cursor-pointer  '>
@@ -73,7 +73,7 @@ const NavMenu = () => {
               initial={{ opacity: 0, y: -10 }}
             > */}
             {/* <div className=' transition whitespace-nowrap hover:transition duration-300 text-2xl font-bold cursor-pointer '> */}
-            <span className=' opacity-100 hover:text-lightGreen dark:hover:text-lightGreen lg:-ml-20'>
+            <span className=' opacity-100 hover:text-lightGreen dark:hover:text-lightGreen '>
               YENSPLASH
             </span>
             {/* </div> */}
@@ -83,7 +83,7 @@ const NavMenu = () => {
         <div className='-my-2 -mr-2 lg:hidden' onClick={() => handleClick()}>
           <MobileMenu />
         </div>
-        <nav className='hidden space-x-6 text-lg justify-center  lg:flex '>
+        <nav className='hidden space-x-6 text-lg justify-center   lg:flex '>
           {navItems.map(({ href, text }, index) => (
             <NavItem href={href} text={text} />
           ))}

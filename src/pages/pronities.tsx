@@ -21,7 +21,7 @@ const Pronities = () => {
         <section >
             <div className="   md:px-12 xl:px-6">
                 <div className="relative pt-36 ">
-                    <div className="lg:w-2/3 md:text-center  mx-auto">
+                    <div className="lg:w-2/3 text-center  mx-auto">
                         <h1 className="text-white font-bold text-4xl md:text-6xl xl:text-7xl">Pro<span className="text-primary text-[#EACD69]">-</span>Nites<span className="text-primary text-[#EACD69]">.</span></h1>
 
                     </div>
