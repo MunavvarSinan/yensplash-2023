@@ -13,12 +13,12 @@ import image12 from './12.jpg';
 import image13 from './13.jpg';
 import image14 from './14.jpg';
 import image15 from './15.jpg';
-import image16 from './16.JPG';
-import image17 from './17.JPG';
-import image18 from './18.JPG';
-import image19 from './19.JPG';
-import image20 from './20.JPG';
-import image21 from './21.JPG';
+import image16 from './16.jpg';
+import image17 from './17.jpg';
+import image18 from './18.jpg';
+import image19 from './19.jpg';
+import image20 from './20.jpg';
+import image21 from './21.jpg';
 
 
 
