@@ -68,7 +68,7 @@ const EventDetails = () => {
                     </div>
 
                 </article >
-                <div className="mt-6 p-10 ">
+                <div className="mt-6 lg:p-10 ">
                     <div className="space-y-4">
                         <div className="md:p-10 ">
                             <h4 className='text-3xl  font-bold font-headings md:text-5xl'>
