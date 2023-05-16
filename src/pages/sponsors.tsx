@@ -5,6 +5,15 @@ import NavMenu from '@/components/NavMenu'
 import { useRouter } from 'next/router'
 const eventSponsors = [
     {
+        image: sponsor7
+    },
+    {
+        image: sponsor8
+    },
+    {
+        image: sponsor10
+    },
+    {
         image: sponsor1
     },
 
@@ -23,18 +32,11 @@ const eventSponsors = [
     {
         image: sponsor6
     },
-    {
-        image: sponsor7
-    },
-    {
-        image: sponsor8
-    },
+
     {
         image: sponsor9
     },
-    {
-        image: sponsor10
-    },
+
     {
         image: sponsor12
     },
