@@ -44,9 +44,6 @@ const eventSponsors = [
         image: sponsor13
     },
     {
-        image: sponsor13
-    },
-    {
         image: sponsor14
     },
     {
