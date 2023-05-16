@@ -28,7 +28,7 @@ const teamDetails = [
 
     },
     {
-        name: 'Vitesh',
+        name: 'Vithesh',
         image: mash,
         year: "4'th year CSE",
         linkedin: 'https://www.linkedin.com/in/',
