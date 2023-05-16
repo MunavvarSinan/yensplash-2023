@@ -1,5 +1,4 @@
 import React from 'react'
-import { analytic_champ } from '../images/events'
 import Image from 'next/image'
 import { useRouter } from 'next/router'
 import Link from 'next/link'

@@ -3,7 +3,6 @@
 @import "tailwindcss/components";
 @import "tailwindcss/utilities";
 
-
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap");
 
 * {
@@ -40,8 +39,6 @@ header:after {
     background-color: rgba(0, 0, 0, 0.05);
     z-index: 25;
 }
-
-
 
 section {
     width: 100%;
@@ -117,8 +114,6 @@ section .container > * {
     }
 }
 
-
-
 .grid-wrapper > div {
     display: flex;
     justify-content: center;
@@ -147,4 +142,9 @@ section .container > * {
 .grid-wrapper .big {
     grid-column: span 2;
     grid-row: span 2;
+}
+@media screen and (max-width: 600px) {
+    .grid-wrapper {
+        grid-template-columns: 1fr; /* Display one box in smaller screens */
+    }
 }

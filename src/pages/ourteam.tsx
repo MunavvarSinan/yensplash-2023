@@ -1,5 +1,5 @@
 import React from 'react'
-import { munavvar } from '../images/team'
+import { mash, mehfooz, munavvar, thanay, profile } from '../images/team'
 import Image from 'next/image'
 import { twitter, linkedin, github } from '../images/icons';
 
@@ -8,6 +8,7 @@ const teamDetails = [
     {
         name: 'Munavvar Sinan k p',
         image: munavvar,
+        year: "3'rd year CSE",
         linkedin: 'https://www.linkedin.com/in/munavvarsinan/',
         github: 'https://github.com/MunavvarSinan',
         twitter: 'https://twitter.com/SinanMunavvar',
@@ -15,50 +16,55 @@ const teamDetails = [
 
     },
     {
-        name: 'Munavvar Sinan k p',
-        image: munavvar,
-
-        linkedin: 'https://www.linkedin.com/in/munavvarsinan/',
-        github: 'https://github.com/MunavvarSinan',
-        twitter: 'https://twitter.com/SinanMunavvar',
-        instagram: 'https://www.instagram.com/__.munavvar.__/',
-
-    },
-    {
-        name: 'Munavvar Sinan k p',
-        image: munavvar,
-        linkedin: 'https://www.linkedin.com/in/munavvarsinan/',
-        github: 'https://github.com/MunavvarSinan',
-        twitter: 'https://twitter.com/SinanMunavvar',
-        instagram: 'https://www.instagram.com/__.munavvar.__/',
+        name: 'Thanay',
+        image: thanay,
+        year: "4'th year CSE",
+        linkedin: 'https://www.linkedin.com/in/',
+        github: 'https://github.com/',
+        twitter: 'https://twitter.com/',
+        instagram: 'https://www.instagram.com/',
 
     },
     {
-        name: 'Munavvar Sinan k p',
-        image: munavvar,
-        linkedin: 'https://www.linkedin.com/in/munavvarsinan/',
-        github: 'https://github.com/MunavvarSinan',
-        twitter: 'https://twitter.com/SinanMunavvar',
-        instagram: 'https://www.instagram.com/__.munavvar.__/',
+        name: 'Vitesh',
+        image: mash,
+        year: "4'th year CSE",
+        linkedin: 'https://www.linkedin.com/in/',
+        github: 'https://github.com/',
+        twitter: 'https://twitter.com/',
+        instagram: 'https://www.instagram.com/',
 
     },
     {
-        name: 'Munavvar Sinan k p',
-        image: munavvar,
+        name: 'Mehfooz',
+        image: mehfooz,
+        year: "4'th year CSE",
 
-        linkedin: 'https://www.linkedin.com/in/munavvarsinan/',
-        github: 'https://github.com/MunavvarSinan',
-        twitter: 'https://twitter.com/SinanMunavvar',
+        linkedin: 'https://www.linkedin.com/in/',
+        github: 'https://github.com/',
+        twitter: 'https://twitter.com/',
+        instagram: 'https://www.instagram.com/',
 
     },
     {
-        name: 'Munavvar Sinan k p',
-        image: munavvar,
+        name: 'Vikas',
+        image: profile,
+        year: "4'th year CSE",
 
-        linkedin: 'https://www.linkedin.com/in/munavvarsinan/',
-        github: 'https://github.com/MunavvarSinan',
-        twitter: 'https://twitter.com/SinanMunavvar',
-        instagram: 'https://www.instagram.com/__.munavvar.__/',
+        linkedin: 'https://www.linkedin.com/in/',
+        github: 'https://github.com/',
+        twitter: 'https://twitter.com/',
+        instagram: 'https://www.instagram.com/',
+
+    },
+    {
+        name: 'Vishal',
+        image: profile,
+        year: "4'th year CSE",
+        linkedin: 'https://www.linkedin.com/in/',
+        github: 'https://github.com/',
+        twitter: 'https://twitter.com/',
+        instagram: 'https://www.instagram.com/',
 
     },
 
@@ -80,6 +86,7 @@ const Ourteam = () => {
                                 <div className="space-y-2">
                                     <div className="flex justify-center items-center flex-col space-y-3 text-lg font-medium leading-6">
                                         <h1 className="text-black font-bold">{item.name}</h1>
+                                        <p className='text-black'>{item.year}</p>
                                         <div className="flex justify-center mt-5 space-x-5">
                                             <a href={item.twitter} target="_blank" rel="noopener noreferrer" className="inline-block text-white">
                                                 <span className="sr-only">Twitter</span>
