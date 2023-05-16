@@ -41,7 +41,7 @@ const About = () => {
                         <div className="w-full px-4 lg:w-1/2 xl:w-5/12">
                             <div className="mt-10 lg:mt-0">
 
-                                <p className="text-body-color mb-8 text-base">
+                                <p className="text-body-color text-justify mb-8 text-base">
                                     Yenepoya Institute of Technology was established in 2008 with the monumental objective of promoting academic excellence and competence in students, especially in the fast-growing global domain of Engineering Technology and Management. The Institute made remarkable progress since it's inception in every aspect and gained name among the Institutes of Technology in the state of Karnataka due to the quality of education and training provided by its dedicated faculty and the infrastructure available. This renowned Institute is now owned by the Islamic Academy of Education of Yenepoya Group of Institutions and Yenepoya University An organization well known for Quality Education.                            </p>
 
                             </div>
@@ -60,7 +60,7 @@ const About = () => {
                             <div className="mt-10 lg:mt-0">
 
 
-                                <p className="text-body-color mb-8 text-base">
+                                <p className="text-body-color mb-8 text-justify text-base">
                                     Yensplash 2023 is a vibrant, three-day inter-college techno-cultural extravaganza that celebrates the spirit of accomplishment and involvement. With a footfall of over 3000 students from across the state, YenSplash is the ultimate platform to showcase your skills and talents. At YenSplash 2023, we aim to cultivate a sense of community among the youth by providing a wide range of activities that cater to all interests. From showcasing your technological expertise to indulging in literary and cultural events, or even testing your gaming skills, YenSplash 2023 has something for everyone. Come join us at YIT and let the magic of YenSplash inspire you to invent, create and amalgamate your cultural and traditional knowledge with us. So, mark your calendars and be a part of this spectacular celebration where you can unleash your true potential and bring out the best version of yourself!
                                 </p>
 
