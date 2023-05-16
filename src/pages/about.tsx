@@ -56,13 +56,12 @@ const About = () => {
                         </div>
                     </div>
                     <div className="-mx-4 mt-10 flex flex-wrap items-center justify-between">
-                        <div className="w-full px-4 lg:w-1/2 xl:w-5/12">
+                        <div className="w-full lg:w-1/2 xl:w-5/12">
                             <div className="mt-10 lg:mt-0">
 
 
                                 <p className="text-body-color mb-8 text-justify text-base">
-                                    Yensplash 2023 is a vibrant, three-day inter-college techno-cultural extravaganza that celebrates the spirit of accomplishment and involvement. With a footfall of over 3000 students from across the state, YenSplash is the ultimate platform to showcase your skills and talents. At YenSplash 2023, we aim to cultivate a sense of community among the youth by providing a wide range of activities that cater to all interests. From showcasing your technological expertise to indulging in literary and cultural events, or even testing your gaming skills, YenSplash 2023 has something for everyone. Come join us at YIT and let the magic of YenSplash inspire you to invent, create and amalgamate your cultural and traditional knowledge with us. So, mark your calendars and be a part of this spectacular celebration where you can unleash your true potential and bring out the best version of yourself!
-                                </p>
+                                    Yensplash is an annual techno-cultural fest held at Yenepoya Institute of Technology in Mangalore, Karnataka, India. It is a 3-day attracts participants from various colleges across the region. The fest features a wide range of events, including technical competitions, cultural performances, workshops, seminars, and sports activities. The technical competitions include coding challenges, hackathons, robotics competitions, and gaming events. There are also cultural events such as music and dance performances, fashion, and talent shows. Yensplash is known for its lively and energetic atmosphere, with participants from different colleges showcasing their talents and engaging in friendly competition. The fest provides a platform for students to showcase their skills and creativity and helps to foster a sense of community and collaboration among participants.                                </p>
 
                             </div>
                         </div>
