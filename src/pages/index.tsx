@@ -20,7 +20,7 @@ export default function PreviewPage() {
       <Container>
         <Header />
 
-        <section className='mt-20 -pt-[100px]'>
+        <section className='mt-20 -pt-[50px]'>
           <div className="shadow"></div>
           <div className="relative" id="home">
 

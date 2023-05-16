@@ -43,7 +43,7 @@ const Events = ({ headerShown }: { headerShown: any }) => {
                 </div>
                     <div className="mx-auto  px-2 py-2 lg:px-10 lg:pt-12 ">
                         <div className="container justify-center lg:max-w-[1300px]">
-                            <div className="grid  grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 p-10 ">
+                            <div className="grid  grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 ">
                                 {eventToShow.map((event) => (
                                     <Link href={{ pathname: `/event/${event.alias}` }}>
 
