@@ -1,5 +1,6 @@
 import Image from 'next/image';
 import logo from '../images/logo.png'
+import logo_compressed from '../images/logo_compressed.png'
 import logoText from '../images/logo_text.png';
 
 const Header = () => {
@@ -17,7 +18,7 @@ const Header = () => {
                 <div className="flex items-center justify-center">
                     <div className="relative w-full max-w-screen-md md:mt-0 sm:mt-10">
                         <div className="relative h-0 pb-[100%] mt-[100px] md:-mt-10 ">
-                            <Image src={logo} alt="logo" className="absolute inset-0 w-full h-full object-contain" />
+                            <Image src={logo_compressed} alt="logo" className="absolute inset-0 w-full h-full object-contain" />
                         </div>
                         <div className="relative h-0">
                             <Image src={logoText} alt="logo text" className="mx-auto w-full h-auto object-contain -mt-[100px] sm:-mt-[10px] md:-mt-[250px] lg:-mt-[300px]" />
