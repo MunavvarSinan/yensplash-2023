@@ -1,33 +1,33 @@
 
-import AnalyticChamp from "./images/poster/poster1.png";
-import FilmFrenzyFest from "./images/poster/poster10.png";
-import FunkFromJunk from "./images/poster/poster11.png";
-import HennaHeritage from "./images/poster/poster12.png";
-import JazzOff from "./images/poster/poster13.png";
-import Maze from "./images/poster/poster14.png";
-import MockCID from "./images/poster/poster15.png";
-import NoBakeMaster from "./images/poster/poster16.png";
-import PalleteOFPerfection from "./images/poster/poster17.png";
-import PencilPassion from "./images/poster/poster18.png";
+import AnalyticChamp from "./images/poster/poster1.jpg";
+import FilmFrenzyFest from "./images/poster/poster10.jpg";
+import FunkFromJunk from "./images/poster/poster11.jpg";
+import HennaHeritage from "./images/poster/poster12.jpg";
+import JazzOff from "./images/poster/poster13.jpg";
+import Maze from "./images/poster/poster14.jpg";
+import MockCID from "./images/poster/poster15.jpg";
+import NoBakeMaster from "./images/poster/poster16.jpg";
+import PalleteOFPerfection from "./images/poster/poster17.jpg";
+import PencilPassion from "./images/poster/poster18.jpg";
 import RampRiot from "./images/poster/poster19.png";
-import BGMI from "./images/poster/poster2.png";
-import RhythmicFusion from "./images/poster/poster20.png";
-import Shayari from "./images/poster/poster21.png";
-import Singing from "./images/poster/poster22.png";
-import StreetDance from "./images/poster/poster23.png";
-import Valorant from "./images/poster/poster24.png";
-import FaceOfFrenzy from "./images/poster/poster25.png";
-import WarOfWords from "./images/poster/poster26.png";
-import WildPromotions from "./images/poster/poster27.png";
-import YenShark from "./images/poster/poster28.png";
+import BGMI from "./images/poster/poster2.jpg";
+import RhythmicFusion from "./images/poster/poster20.jpg";
+import Shayari from "./images/poster/poster21.jpg";
+import Singing from "./images/poster/poster22.jpg";
+// import StreetDance from "./images/poster/poster23.png";
+import Valorant from "./images/poster/poster24.jpg";
+import FaceOfFrenzy from "./images/poster/poster25.jpg";
+import WarOfWords from "./images/poster/poster26.jpg";
+import WildPromotions from "./images/poster/poster27.jpg";
+import YenShark from "./images/poster/poster28.jpg";
 import YGT from "./images/poster/poster29.png";
-import BlindTypeBattle from "./images/poster/poster3.png";
-import BrushOfBrush from "./images/poster/poster4.png";
-import BugBash from "./images/poster/poster5.png";
-import CameraChronicles from "./images/poster/poster6.png";
-import CinematicShot from "./images/poster/poster7.png";
-import comicComat from "./images/poster/poster8.png";
-import Cubix from "./images/poster/poster9.png";
+import BlindTypeBattle from "./images/poster/poster3.jpg";
+import BrushOfBrush from "./images/poster/poster4.jpg";
+import BugBash from "./images/poster/poster5.jpg";
+import CameraChronicles from "./images/poster/poster6.jpg";
+import CinematicShot from "./images/poster/poster7.jpg";
+import comicComat from "./images/poster/poster8.jpg";
+import Cubix from "./images/poster/poster9.jpg";
 
 
 export const events = [
@@ -341,9 +341,9 @@ export const events = [
       "faculty": ["Deeksha K R", "Harikanth"]
     },
     "schedule": {
-      "day": "20th May",
+      "day": "21st May",
       "venue": "Concert Stage",
-      "time": "12:30 PM- 2:00 PM"
+      "time": "9:00 AM"
     }
   },
   {
@@ -515,8 +515,8 @@ export const events = [
     },
     "schedule": {
       "day": "20th May",
-      "venue": "Seminar Hall",
-      "time": "2:00 PM – 3:00 PM"
+      "venue": "Open-air Auditorium",
+      "time": "9:45 AM"
     }
   },
   {
@@ -594,7 +594,7 @@ export const events = [
     },
     "schedule": {
       "day": "20th May",
-      "venue": "SLH02",
+      "venue": "Seminar Hall",
       "time": "2:00 PM – 3:00 PM"
     }
   },
@@ -671,44 +671,44 @@ export const events = [
       "time": "2:30 PM – 3:30 PM"
     }
   },
-  {
-    "name": "Street Dance",
-    "alias": "",
-    "image": StreetDance,
-    "aboutEvent": "Are you ready to get down and groove to the beat of the streets? Welcome to the world of street dance, where the rhythm is electric and the energy is contagious! From popping and locking to breaking and krumping. This urban dance style is all about pushing boundaries, expressing yourself, and having a blast. So let's hit the dance floor and get ready to move to the rhythm of the SPLASH!",
-    "eventDetail": [
-      "Dancers will compete head-to-head in a series of rounds, with the winner of each round advancing to the next until a champion is crowned."
-    ],
-    "rules": [
-      "It is a Solo dance event.(Free style)",
-      "Two participants will be facing head-to-head with each other.",
-      "Each dancer will have a set amount of time to perform.",
-      "Song will be played by the event coordinator.",
-      "Each Participant should maintain the dance streak of minimum 45 seconds to 1 minute.",
-      "There are no preliminary rounds , every round will be noted as eliminatory round.Judges decision is final."
-    ],
-    "judgingCriteria": [
-      "Musicality: How well a breaker/participant connects with and expresses the music through their dance.",
-      "Foundation: Showcasing mastery of the basics top rock and footwork steps, go downs, transitions, freezes",
-      "Character: How well a breaker/participant expresses their personality through their dance.",
-      "Difficulty of movement: How well a breaker/participant expresses their personality through their dance",
-      "Style: If a breaker/participant showcases a way of moving that’s unique to them.",
-      "Originality: Coming up with fresh variations on existing moves"
-    ],
-    "coordinators": {
-      "students": [
-        { "name": "Abhishek", "phone": "9108674964" },
-        { "name": "Guruprasad", "phone": "9591446918" },
-        { "name": "Ganesh", "phone": "8792143538" }
-      ],
-      "faculty": ["Seetha Laxmi", "Namratha"]
-    },
-    "schedule": {
-      "day": "20th May",
-      "venue": "Car Parking Area",
-      "time": "4:00 PM -5:00 PM"
-    }
-  },
+  // {
+  //   "name": "Street Dance",
+  //   "alias": "",
+  //   "image": StreetDance,
+  //   "aboutEvent": "Are you ready to get down and groove to the beat of the streets? Welcome to the world of street dance, where the rhythm is electric and the energy is contagious! From popping and locking to breaking and krumping. This urban dance style is all about pushing boundaries, expressing yourself, and having a blast. So let's hit the dance floor and get ready to move to the rhythm of the SPLASH!",
+  //   "eventDetail": [
+  //     "Dancers will compete head-to-head in a series of rounds, with the winner of each round advancing to the next until a champion is crowned."
+  //   ],
+  //   "rules": [
+  //     "It is a Solo dance event.(Free style)",
+  //     "Two participants will be facing head-to-head with each other.",
+  //     "Each dancer will have a set amount of time to perform.",
+  //     "Song will be played by the event coordinator.",
+  //     "Each Participant should maintain the dance streak of minimum 45 seconds to 1 minute.",
+  //     "There are no preliminary rounds , every round will be noted as eliminatory round.Judges decision is final."
+  //   ],
+  //   "judgingCriteria": [
+  //     "Musicality: How well a breaker/participant connects with and expresses the music through their dance.",
+  //     "Foundation: Showcasing mastery of the basics top rock and footwork steps, go downs, transitions, freezes",
+  //     "Character: How well a breaker/participant expresses their personality through their dance.",
+  //     "Difficulty of movement: How well a breaker/participant expresses their personality through their dance",
+  //     "Style: If a breaker/participant showcases a way of moving that’s unique to them.",
+  //     "Originality: Coming up with fresh variations on existing moves"
+  //   ],
+  //   "coordinators": {
+  //     "students": [
+  //       { "name": "Abhishek", "phone": "9108674964" },
+  //       { "name": "Guruprasad", "phone": "9591446918" },
+  //       { "name": "Ganesh", "phone": "8792143538" }
+  //     ],
+  //     "faculty": ["Seetha Laxmi", "Namratha"]
+  //   },
+  //   "schedule": {
+  //     "day": "20th May",
+  //     "venue": "Car Parking Area",
+  //     "time": "4:00 PM -5:00 PM"
+  //   }
+  // },
   {
     "name": "Sing-A-Thon",
     "alias": "Singing",
@@ -738,9 +738,9 @@ export const events = [
       "faculty": ["Ashitha Shetty", "Thripthi B Shetty"]
     },
     "schedule": {
-      "day": "21st May",
-      "venue": "Concert Stage",
-      "time": "9:00 AM -10:30 AM"
+      "day": "20th May",
+      "venue": "Open-air Auditorium",
+      "time": "1:00 PM"
     }
   },
   {
@@ -771,9 +771,9 @@ export const events = [
       "faculty": ["Raghavendra", "Manjunath Raikar"]
     },
     "schedule": {
-      "day": "21st May",
-      "venue": "Concert Stage",
-      "time": "10:30 AM-12:30 PM"
+      "day": "20th May",
+      "venue": "Open-air Auditorium",
+      "time": "3:00 PM"
     }
   },
   {
@@ -972,9 +972,9 @@ export const events = [
       "faculty": ["Pandu Naik", "Sleeba Mathew"]
     },
     "schedule": {
-      "day": "21st May",
-      "venue": "Seminar Hall",
-      "time": "1:00 PM – 2:00 PM"
+      "day": "20th May",
+      "venue": "Open-air Auditorium",
+      "time": "10:15 AM"
     }
   },
   {
@@ -1004,7 +1004,7 @@ export const events = [
     "schedule": {
       "day": "21st May",
       "venue": "Physics lab",
-      "time": "2:00 PM – 3:00 PM"
+      "time": "12:00 PM"
     }
   },
   {
@@ -1051,8 +1051,8 @@ export const events = [
     },
     "schedule": {
       "day": "21st May",
-      "venue": "Machine lab",
-      "time": "12:00 PM – 1:30 PM"
+      "venue": "Digital System Design Lab 2nd floor",
+      "time": "10:00 AM"
     }
   }
 ]
