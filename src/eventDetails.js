@@ -379,7 +379,7 @@ export const events = [
   },
   {
     "name": "BGMI",
-    "alias": "",
+    "alias": "Bgmi",
     "image": BGMI,
     "aboutEvent": "BGMI is a player versus player shooter game in which up to one hundred players fight in a battle royale, a type of large-scale last man standing deathmatch where players fight to remain the last alive. The last person or team alive wins the match",
     "eventDetail": [
@@ -413,7 +413,7 @@ export const events = [
   },
   {
     "name": "Valorant",
-    "alias": "",
+    "alias": "Valorent",
     "image": Valorant,
     "aboutEvent": "Valorant is a team-based first-person tactical hero shooter set in the near future. Players play as one of a set of Agents. In the main game mode, players are assigned to either the attacking or defending team with each team having five players on it. Agents have unique abilities, each requiring charges, as well as a unique ultimate ability that requires charging through kills, deaths, orbs, or objectives. the players have to make use of all the utils in order to defend 12 rounds and attack 12 rounds the first team to win 13 rounds win’s the match.",
     "eventDetail": [
@@ -445,7 +445,7 @@ export const events = [
   },
   {
     "name": "Cubix",
-    "alias": "",
+    "alias": "Cubix",
     "image": Cubix,
     "aboutEvent": "This is a Rubik’s Cube solving competition, where participants can showcase their skills in solving the iconic 3X3 puzzle. There will be total 2 rounds.",
     "eventDetail": [
